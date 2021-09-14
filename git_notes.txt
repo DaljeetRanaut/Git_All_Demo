@@ -1,0 +1,26 @@
+Welcome@#@1
+daljeetranaut@gmail.com
+github login
+UserName: DaljeetRanaut
+
+
+1.To create empty file then we use touch cmd
+: touch Hello.java
+2. if you want to Unstaged 
+:$ git rm --cached Hello.java
+
+clear console:
+clear
+3. suppose after commit your one file got deleted, how we can get that?
+: git checkout about.html
+4. suppose AFTER COMMIT my all files got deleted, how we recover all in one go?
+: git checkout -f
+5. if you want to see all commits ?
+: git log
+6. if you want to see one commit only?
+git log -p -1
+7. if you want to skip staging area don't want to use git add then after file modification
+: git commit -a -m "Skipping the staging area"
+8. if you just want to see last two commits and also getting back to console then?
+: git log -p -2 and getting back to console press "q".
+
