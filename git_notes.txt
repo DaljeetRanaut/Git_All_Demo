@@ -35,4 +35,15 @@ git log -p -1
 then provide the filename init which you want to ignore.
 14. if you want to ignore folder
 : inside .gitignore /myLog
+15. Create new branch?
+: git branch Daljeet
+16. to check all available branches?
+: git branch
+17. Navigate or switch b/w branches ?
+: git checkout Daljeet or git checkout master
+18. if you want to push the changes to master branch or you want to merge your branch changes to master?
+: git merge, Make sure that you should in master branch before hitting this cmd. to check that hit git branche cmd
+and then if you are not in master then switch to master with this git checkout master.
+19. create branch and switch init with single cmd?
+: git checkout -b JavaNode
 
