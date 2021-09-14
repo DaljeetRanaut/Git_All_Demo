@@ -23,4 +23,16 @@ git log -p -1
 : git commit -a -m "Skipping the staging area"
 8. if you just want to see last two commits and also getting back to console then?
 : git log -p -2 and getting back to console press "q".
+9. to check all files?
+: ls
+10. getting path of folder?
+: pwd
+11.Delete any files after commit?
+:git rm delete.html or git rm -f delete.html
+12. short status : git status -s
+13. to Ignore file which you don't want to upload
+: create file with touch .gitignore 
+then provide the filename init which you want to ignore.
+14. if you want to ignore folder
+: inside .gitignore /myLog
 
